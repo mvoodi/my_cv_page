@@ -4,6 +4,26 @@ body {
   margin: 0;
 }
 
+.avatar-container {
+    display: flex;           
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;           
+  }
+  
+ 
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #333;
+  }
+
+* {
+  box-sizing: border-box
+}
+
 
 .navbar {
   background-color: #31b0d5;
@@ -20,6 +40,74 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+
+.jumbotron {
+  height: 120vh; 
+  background: #31b0d5; 
+  margin-bottom: 0; 
+
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron-text {
+  
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.jumbotron-text h1 {
+  
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.jumbotron-text p {
+  margin: 0;
+}
+
+.ul-social {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-social-links {
+  display: inline-block;
+  list-style: none;
+}
+
+.social {
+  font-size: 2em;
+  color: white;
+  padding: 20px;
+}
+
+
+#down-arrow {
+  
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#down-arrow a {
+  color: white;
+}
+
+
 .container {
   
   display: flex;
